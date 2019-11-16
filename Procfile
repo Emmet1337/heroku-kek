@@ -1,1 +1,1 @@
-web: gunicorn wsgi:app
+web: gunicorn Hopper.wsgi --log-file -
