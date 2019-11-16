@@ -86,10 +86,10 @@ WSGI_APPLICATION = 'Hopper.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql_psycopg2',
-        'NAME': 'DATABASE_URL',
-        'USER': 'admin',
-        'PASSWORD': '1337',
-        'HOST': 'localhost',
+        'NAME': 'dda2f163ft67bu',
+        'USER': 'yuusgbayvaokjq',
+        'PASSWORD': '9cc6570490a26b2fc784e86f62dd61a36ee47c3cbb0aa3b5a2cd46718658a7ba',
+        'HOST': 'ec2-54-228-207-163.eu-west-1.compute.amazonaws.com',
         'PORT': '5432',
     }
 }
