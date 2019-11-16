@@ -32,7 +32,7 @@ SECRET_KEY = 'GDFGDFGDFGDFGDFGDFGDF'
 #DEBUG = config('DEBUG')
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['https://heroku-kek.herokuapp.com/']
 
 
 # Application definition
