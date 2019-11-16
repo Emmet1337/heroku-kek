@@ -30,9 +30,9 @@ SECRET_KEY = 'GDFGDFGDFGDFGDFGDFGDF'
 
 # SECURITY WARNING: don't run with debug turned on in production!
 #DEBUG = config('DEBUG')
-DEBUG = True
+DEBUG = False
 
-ALLOWED_HOSTS = ['https://heroku-kek.herokuapp.com/']
+ALLOWED_HOSTS = [*]
 
 
 # Application definition
