@@ -32,7 +32,7 @@ SECRET_KEY = 'GDFGDFGDFGDFGDFGDFGDF'
 #DEBUG = config('DEBUG')
 DEBUG = False
 
-ALLOWED_HOSTS = [*]
+ALLOWED_HOSTS = []
 
 
 # Application definition
