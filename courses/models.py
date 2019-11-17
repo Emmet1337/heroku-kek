@@ -21,7 +21,7 @@ class Branch(models.Model):
 
 
 class Contact(models.Model):
-    CONTACT_TYPES = ((1, 'Phone'), (2, 'FACEBOOK'), (3, 'EMAIL'))
+    CONTACT_TYPES = ((1, 'PHONE'), (2, 'FACEBOOK'), (3, 'EMAIL'))
     type = models.CharField(choices=CONTACT_TYPES, max_length=10)
     value = models.CharField(max_length=100)
     course = models.ForeignKey(Course, on_delete=models.CASCADE, related_name='contacts')
